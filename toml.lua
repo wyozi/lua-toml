@@ -501,7 +501,6 @@ TOML.parse = function(toml, options)
 						if isLast then
 							table.insert(obj, {})
 						end
-						obj = obj[#obj]
 					else
 						obj[buffer] = {}
 						obj = obj[buffer]
